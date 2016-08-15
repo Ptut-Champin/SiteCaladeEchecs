@@ -1,0 +1,213 @@
+Thème : Unlimited, le thème 100% personalisable > Stoned
+
+Propriétés du site
+	Barre de sélection des langues
+		Position en haut à droite de l'en-tête du site
+		Couleur de fond rgba(242,242,242,1)
+
+	Boutons
+		Couleur de fond rgba(51,51,51,1)
+		Couleur du texte rgba(255,255,255,1)
+		Fond au survol rgba(117,0,0,1)
+		Coouleur de texte au survol rgba(255,255,255,1)
+
+	Pagination
+		Couleur de fond rgba(242,242,242,1)
+		Bordure haut Solid 1px rgba(221,221,221,1)
+		Pas d'autres bordures
+		Couleur des liens rgba(0,0,0,1)
+		Couleur du lien actif rgba(117,0,0,1)
+		Fond du lien actif rgba(221,221,221,1)
+
+Fond de page
+	Police Arial, Helvetica, sans-serif, 14px, rgba(0,0,0,1)
+	Liens rgba(117,0,0,1)
+
+Messages contextuels
+	Couleur de fond rgba(255,255,255,1)
+	Couleur du texte rgba(0,0,0,1)
+
+	Boutons
+		Fond rgba(51,51,51,1)
+		Couleur du texte rgba(255,255,255,1)
+		Fond des boutons au survol rgba(117,0,0,1)
+		Couleur du texte au survol rgba(255,255,255,1)
+
+	Légendes du formulaire
+		Couleur des légendes rgba(117,0,0,1)
+
+	Champs du formulaire
+		Couleur de fond rgba(242,242,242,1)
+		Bordure des champs(221,221,221,1)
+		Couleur de fond des champs au focus rgba(255,255,255,1)
+
+	En-têtes
+		Couleur de fond rgba(221,221,221,1)
+		Couleur du texte rgba(0,0,0,1)
+
+En-tête
+	Cocher "PLacer l'en-tête dans le conteneur"
+	Hauteur 180px
+	Largeur égale à la largeur de la fenêtre
+
+	Logo
+		Cocher "Afficher le logo"
+		Position à gauche
+		Marges 10 20 0 0 px
+
+	Apparence du titre
+		Cocher "Afficher le titre"
+		Police "Times New Roman", Times, serif 48px rgba(51,51,51,1)
+		Sélectionner le gras
+		Marges 40 0 0 0 px
+
+	Apparence du sous-titre
+		Police "Times New Roman", Times, serif 30px rgba(153,153,153,1)
+		Marges 0 0 0 0 px
+
+Menu horizontal du haut
+	Position en dessous de l'en-tête
+	Cocher "Fixer le menu horizontal"
+	Largeur égale à la largeur du conteneur
+	Marge au dessus, sous le menu et hauteur du menu 10 10 40px
+	Couleur de fond rgba(186,175,186,1)
+	Pas de bordure	
+	Bords arrondis 1px
+	Ombre portée 15px
+	Alignement bord gauche de la fenêtre
+
+	Apparence des liens
+		Police Letter Gothic MT, 14px, rgba(0,0,0,1)
+		Sélectionner le gras
+		Largeur du séparateur 1px
+		Couleur du séparateur rgba(176,176,176,1)
+		
+		Fond des liens
+			Position left center
+			Répétition cocher le 2ème en partant de la gauche
+			Couleur rgba(24,242,242,1)
+			Image ../medias/static/themes/maximalist/stoned/menu_items_bg.png
+
+		Apparence au survol
+			Couleur rgba(255,255,255,1)
+			Sélectionner le gras
+			Fond des liens au survol rgba(51,51,51,1)
+
+	Menus déroulants
+		Couleur de fond rgba(255,255,255,1)
+		Bordures Solid 1px rgba(1,1,1,0)
+		Apparence des liens rgba(0,0,0,1)
+		Aparence au survol rgba(117,0,0,1)
+		Fond au survol rgba(242,242,242,1)
+
+Conteneur
+	Largeur 1100px
+	Marge au dessus, en dessous du conteneur, marges intérieures 20 20 10 px
+	Couleur de fond rgba(255,255,255,1)
+	Bordures Solid 1px rgba(204,204,204,1)
+
+Contenu
+	Afficher le fil d'Ariane Oui
+	Marges intérieures 10px
+	Image et couleur de fond center top rgba(255,255,255,1)
+	
+	Texte
+		Police Arial, Helvetica, sans-serif 13px rgba(0,0,0,1)
+		Liens rgba(117,0,0,1)
+		Liens survolés rgba(0,0,0,1)
+
+	Titres
+		Police Georgia, "Times New Roman", Times, serif rgba(51,51,51,1)
+		Liens rgba(51,51,51,1)
+		Liens survolés rgba(117,0,0,1)
+
+	Afficher le titre des pages du module Oui
+
+	Blocs de contenu
+		Fond des blocs de contenu rgba(242,242,242,1)
+
+		Titres
+			Couleur rgba(51,51,51,1)
+			Liens rgba(51,51,51,1)
+			Liens survolés rgba(117,0,0,1)
+
+		Texte
+			Couleur rgba(0,0,0,1)
+			Liens rgba(117,0,0,1)
+			Liens survolés rgba(0,0,0,1)
+
+Menus verticaux
+	Position à gauche
+	Égaliser la hauteur des colonnes
+
+Premier menu vertical
+	Largeur du menu 300px
+	Marges intérieures 10 10 10 0 px
+
+	Titres des widgets
+		Titres
+			Police Georgia, "Times New Roman", Times, serif 16px rgba(117,0,0,1)
+			Sélectionner le gras
+
+		Couleur des titres au survol rgba(117,0,0,1)
+		Bordure des titres Bas Solid 1px rgba(221,221,221,1)
+
+	Widgets
+		Titres
+			Police Georgia, "Times New Roman", Times, serif 16px rgba(0,0,0,1)
+			Sélectionner le gras
+
+		Couleur des titres au survol rgba(117,0,0,1)
+
+		Texte
+			Police Arial, Helvetica, sans-serif 13px pas de couleur
+			Liens Sélectionner le soulignage rgba(0,0,0,1)
+			Liens survolés rgba(117,0,0,1)
+
+		Fond des widgets rgba(237,237,237,1)
+		Bordure des widgets Solid 1px rgba(221,221,221,1)
+		Marges intérieures 5px
+
+	Fond alternatif
+		Couleur de fond rgba(221,221,221,1)
+		Police Arial
+
+	Menus déroulants
+		Couleur de fond rgba(221,221,221,1)
+		Apparence des liens rgba(0,0,0,1)
+		Apparence de sliens au survol rgba(117,0,0,1)
+
+Pied de page
+	Position de la zone éditable en bas de la zone de contenu
+	Largeur du pied de page égale à la largeur de la fenêtre
+	Marge en dessous du pied de page 10px
+
+	Texte
+		Police Georgie, "TImes New Roman", Times, serif 12px rgba(153,153,153,1)
+		Liens Sélectionner le soulignage rgba(153,153,153,1)
+		Liens survolés rgba(117,0,0,1)
+
+Boutique
+	Apparence du prix
+		Police "Courier New", Courier, monospace 20px rgba(117,0,0,1)
+		Sélectionner le gras
+
+	Prix barré
+		Police 16px rgba(153,153,153,1)
+		Sélectionner le gras
+
+	Promotion Police 18px rgba(51,51,51,1)
+	Texte en stock rgba(153,153,153,1)
+	Texte commande hors-stock rgba(117,0,0,1)
+	Texte dernières quantités disponibles rgba(117,0,0,1)
+
+	Onglets
+		Couleur du texte rgba(153,153,153,1)
+		Couleur de la bordure rgba(221,221,221,1)
+		Couleur du texte au survol rgba(117,0,0,1)
+
+Taille des images
+	Avatars Recadrer 63x63 (largeur x hauteur)
+	Miniatures Recadrer 100x100
+	Moyennes Redimensionner 400x600
+	Grandes Redimensionner 800x600

@@ -1,0 +1,9 @@
+Titre du module : Actualité de Calade Echecs
+
+Texte d'introduction : Voir Accueil Blog.html
+
+Nombre de billets par page 5
+
+Activer l'ajout de billets
+
+Commentaires : les activer, service par défaut, proposer des smileys, ordre d'affichage des commentaires Plus anciens en premier
