@@ -46,7 +46,7 @@ Messages contextuels
 		Couleur du texte rgba(0,0,0,1)
 
 En-tête
-	Cocher "PLacer l'en-tête dans le conteneur"
+	Cocher "Placer l'en-tête dans le conteneur"
 	Hauteur 180px
 	Largeur égale à la largeur de la fenêtre
 
@@ -71,7 +71,7 @@ Menu horizontal du haut
 	Largeur égale à la largeur du conteneur
 	Marge au dessus, sous le menu et hauteur du menu 10 10 40px
 	Couleur de fond rgba(186,175,186,1)
-	Pas de bordure	
+	Pas de bordure
 	Bords arrondis 1px
 	Ombre portée 15px
 	Alignement bord gauche de la fenêtre
@@ -85,7 +85,7 @@ Menu horizontal du haut
 		Fond des liens
 			Position left center
 			Répétition cocher le 2ème en partant de la gauche
-			Couleur rgba(24,242,242,1)
+			Couleur rgba(242,242,242,1)
 			Image ../medias/static/themes/maximalist/stoned/menu_items_bg.png
 
 		Apparence au survol
