@@ -1,0 +1,439 @@
+Propriétés du site
+	Texte par défaut
+		Police Arial, Helvetica, sans-serif
+		Couleur rgba(0,0,0,1)
+		Liens rgba(117,0,0,1)
+		Liens survolés soulignés rgba(0,0,0,1)
+	
+Fond de page
+	Image et couleur de fond
+		Position left-bottom
+		Répétition 2ème en partant de la gauche
+		Couleur rgba(255,255,255,1)
+		Image pas d'image
+		"Fixer l'image de fond" décoché
+
+Boutons
+	Couleur du texte rgba(0,0,0,1)
+	Couleur de départ rgba(242,242,242,1)
+	Couleur d'arrivée rgba(221,221,221,1)
+	Couleur du texte au survol rgba(255,255,255,1)
+
+Messages contextuels
+	Couleur de fond rgba(255,255,255,1)
+	Couleur du texte rgba(0,0,0,1)
+	
+	Boutons
+		Couleur du texte rgba(0,0,0,1)
+		Couleur de départ rgba(242,242,242,1)
+		Couleur d'arrivée rgba(221,221,221,1)
+		Couleur du texte au survol rgba(255,255,255,1)
+	
+Pagination
+	Couleur des liens rgba(0,0,0,1)
+	Couleur de fond des liens rgba(242,242,242,1)
+	Couleur du lien actif rgba(117,0,0,1)
+	Fond du lien actif rgba(221,221,221,1)
+	Couleur des bordures rgba(221,221,221,1)
+
+Tableaux
+	Couleur des bordures rgba(0,0,0,1)
+	Couleur de fond en alternance
+		Position left top
+		Répétition 1er en partant de la gauche
+		Couleur pas de couleur
+		Image pas d'image
+		
+	Entêtes
+		Couleur du texte rgba(0,0,0,1)
+		Couleur de fond rgba(221,221,221,1)
+	
+Formulaires
+	Champs du formulaire
+		Couleur du texte rgba(0,0,0,1)
+		Couleur de fond rgba(242,242,242,1)
+		Couleur de la bordure pas de couleur
+		Couleur du texte au focus pas de couleur
+		Couleur de fond au focus rgba(255,255,255,1)
+		
+	Bouton de validation
+		Couleur du texte rgba(0,0,0,1)
+		Couleur de départ rgba(242,242,242,1)
+		Couleur de départ rgba(204,204,204,1)
+		Couleur du texte au survol rgba(255,255,255,1)
+		
+Entête
+	Largeur de l'entête égale à la largeur du conteneur
+	Largeur du contenu égale à la largeur de l'entête
+	Marge au dessus de l'entête 0px
+	Marge sous l'entête 0px
+	Image et couleur de fond
+		Position left-top
+		Répétition 1er en partant de la gauche
+		Couleur rgba(255,255,255,1)
+		Image pas d'image
+		"Cacher l'image de fond sur mobile" décoché
+	Bordures pas de bordure
+	Bords arrondis aucun
+	
+	Logo
+		"Afficher le logo dans l'entête" coché
+		Position à gauche
+		Marges 10 20 0 0 px
+	
+	Apparence du titre
+		"Masquer le titre" décoché
+		Texte
+			Police "Times New Roman", Times, serif
+			Taille 48px
+			Couleur rgba(51,51,51,1)
+		Sélectionner le gras et aligné à gauche
+		Marges 28 0 0 0 px
+	
+	Apparence du sous-titre
+		Texte
+			Police "Times New Roman", Times, serif
+			Taille 30px
+			Couleur rgba(153,153,153,1)
+		Sélectionner aligné à gauche
+		Marges 0 0 0 0 px
+		
+	Moteur de recherche
+		"Afficher un moteur de recherche dans l'entête" décoché
+
+Menu horizontal du haut
+	Position du menu horizontal en dessous de l'en-tête
+	"Fixer le menu horizontal" coché
+	Largeur du menu horizontal égale à la largeur de la fenêtre
+	Largeur du contenu égale à la largeur du conteneur
+	Marge au dessus, sous le menu et hauteur du menu 10 40 40px
+	
+	Image et couleur de fond
+		Position left bottom
+		Répétion 1er en partant de la gauche
+		Couleur rgba(186,175,186,1)
+		Image pas d'image
+		Bordures pas de bordure
+		Bords arrondis 1px
+		Alignement du menu aligné à gauche
+		
+		Apparence des liens
+			Texte
+			Police Letter Gothic MT
+			Taille 14px
+			Couleur rgba(0,0,0,1) Gras
+			Couleur au survol rgba(255,255,255,1) Gras
+			
+		Fond des liens
+			Position left center
+			Répétition 2ème en partant de la gauche
+			Couleur rgba(242,242,242,1)
+			Image ../medias/static/themes/maximalist/stoned/menu_items_bg.png
+			
+		Largeur du séparateur 1px
+		Couleur du séparateur rgba(176,176,176,1)
+		
+		Fond des liens au survol
+			Position left top
+			Répétition 1er en partant de la gauche
+			Couleur rgba(51,51,51,1)
+			Image pas d'image
+			
+	Menus déroulants
+		Couleur de fond rgba(255,255,255,1)
+		Bordures Solid 1px rgba(0,0,0,1)
+		
+		Apparence des liens
+			Liens rgba(0,0,0,1)
+			Liens survolés rgba(117,0,0,1)
+			
+		Couleur de fond des liens au survol rgba(242,242,242,1)
+		
+		Bordures sur les liens
+			Haut, Droite, Gauche pas de bordure
+			Bas solid 1px rgba(0,0,0,1)
+			
+		"Aucune bordure sur le dernier élément" coché
+		
+Conteneur (partie incluant la zone de contenu du site et les menus verticaux)
+	Marge au dessous du conteneur 50px
+	Marges intérieures 10px
+	
+	Image et couleur de fond
+		Position left top    
+		Répétition 1er en partant de la gauche
+		Couleur pas de couleur	
+		Image pas d'image
+
+	Bordures solid 1px rgba(204,204,204,1)
+
+Zone de contenu
+	"Afficher le fil d'ariane" coché
+	Couleur des icônes pas de couleur
+	Marges intérieures 10px
+
+	Image et couleur de fond
+		Position center top 
+		Répétition 1er en partant de la gauche	   
+		Couleur rgba(255,255,255,1)
+		Image pas d'image
+	
+	Bordures pas de bordure
+	Bords arrondis aucun
+	
+	Texte
+		Police Georgia, Times New Roman, sans-serif
+		Couleur rgba(0,0,0,1) 
+		Liens rgba(117,0,0,1)
+		Liens survolés rgba(0,0,0,1)
+
+	Titres
+		Police Georgia, Times New Roman, sans-serif
+		Couleur : rgba(51,51,51,1)
+		Liens rgba(51,51,51,1)
+		Liens survolés rgba(117,0,0,1)
+		
+	Sous-titres
+		Police Georgia, Times New Roman, sans-serif
+		Couleur rgba(51,51,51,1)
+		Liens rgba(51,51,51,1)
+		Liens survolés rgba(117,0,0,1)
+
+	Blocs des catégories d'un module
+		Couleur des liens
+			Liens rgba(117,0,0,1)
+			Liens survolés souligné rgba(0,0,0,1)
+			
+		Image et couleur de fond
+			Position center top
+			Répétition 1er en partant de la gauche
+			Couleur rgba(255,255,255,1)
+			Image pas d'image
+		
+		Bordures pas de bordure
+		Bords arrondis aucun
+		
+	Bulles infos
+		Couleur du texte rgba(255,255,255,1)
+		Couleur de fond rgba(229,147,25,1)
+
+	Listings
+		Bordures bas solis 1px rgba(170,170,170,1)
+		"Aucune bordure sur le dernier élément" coché
+		Couleur de fond en alternance rgba(244,244,244,1)
+
+	Vignettes
+		Titres
+			Police Arial, Helvetica, sans-serif centré
+			Liens rgba(102,102,102,1)
+			Liens survolés rgba(51,51,51,1)
+
+		Couleur du texte rgba(51,51,51,1)
+
+		Image et couleur de fond
+			Position left top
+			Répétition 1er en partant de la gauche   
+			Couleur pas de couleur
+			Image pas d'image
+			
+		Bordures solid 1px rgba(244,244,244,1)
+		Bords arrondis aucun
+
+		Image et couleur de fond au survol
+			Position left top
+			Répétition 1er en partant de la gauche 
+			Couleur rgba(244,244,244,1)
+			Image pas d'image
+		
+		Bordures au survol solid 1px rgba(244,244,244,1)
+
+	Barres de tags
+		Image et couleur de fond
+			Position left top
+			Répétition 1er en partant de la gauche
+			Couleur rgba(244,244,244,1)
+			Image pas d'image
+		
+		Bordures haut solid 1px rgba(170,170,170,1)
+		Bords arrondis aucun
+		
+	Tags
+		Couleur du texte rgba(255,255,255,1)
+		
+		Image et couleur de fond
+			Position left top
+			Répétition 1er en partant de la gauche
+			Couleur rgba(170,170,170,1)
+			Image pas d'image
+				
+		Bords arrondis 10px
+	
+	Tags au survol
+		Couleur du texte rgba(255,255,255,1)
+		
+		Image et couleur de fond left top
+		Répétition 1er en partant de la gauche
+		Couleur rgba(229,147,25,1)
+		Image pas d'image
+
+	Mention "nouveauté"
+		Couleur du texte rgba(255,255,255,1)
+		Couleur de fond rgba(255,102,0,1)
+
+Menus verticaux
+	Position des menus verticaux
+		À gauche
+		"Widgets en accordéon" décoché
+		"Cacher sur mobile" coché
+	Couleur des icônes rgba(204,204,204,1)
+	Marges intérieures 0px
+
+	Fond du menu vertical
+		Position left top
+		Répétition 1er en partant de la gauche	   
+		Couleur pas de couleur
+		Image pas d'image
+		
+	Bordures pas de bordure
+	Bords arrondis aucun
+
+	Titre des widgets
+		Marges intérieures gauche 5px
+		Marge inférieure 10px
+		
+		Texte
+			Police Times New Roman, Times, serif gras
+			Couleur rgba(117,0,0,1)
+			Liens gras rgba(117,0,0,1)
+			Liens survolés gras rgba(117,0,0,1)
+
+		Image et couleur de fond
+			Position left top
+			Répétition 1er en partant de la gauche   
+			Couleur pas de couleur
+			Image pas d'image
+			
+		Bordures bas solid 1px rgba(221,221,221,1)
+		Bords arrondis aucun
+
+	Widgets
+		Marges intérieures 0px
+		Marge inférieure 20px
+
+		Image et couleur de fond
+			Position left top  
+			Répétition 1er en partant de la gauche
+			Couleur pas de couleur
+			Image pas d'image
+			
+		Bordures pas de bordure
+		Bords arrondis aucun
+
+		Titres
+			Police Arial, Helvetica, sans-serif gras
+			Couleur rgba(162,87,1,1)
+			Liens gras rgba(162,87,1,1)
+			Liens survolés gras souligné rgba(162,87,1,1)
+
+		Texte
+			Police Arial, Helvetica, sans-serif
+			Couleur rgba(51,51,51,1)
+			Liens souligné rgba(51,51,51,1)
+			Liens survolés rgba(51,51,51,1)
+
+	Bulles infos
+		Couleur du texte rgba(255,255,255,1)
+		Couleur de fond rgba(153,153,153,1)
+
+	Listings
+		Bordures pas de bordure
+		"Aucune bordure sur le dernier élément" décoché
+		Couleur de fond en alternance rgba(255,255,255,1)
+
+	Menus
+		Apparence des liens
+			Liens rgba(0,0,0,1)
+			Liens survolés rgba(117,0,0,1)
+		Couleur de fond en alternance pas de couleur
+		Couleur de fond des liens au survol pas de couleur
+		Bordures pas de bordure
+		"Aucune bordure sur le dernier élément" décoché
+
+	Menus déroulants
+		Couleur de fond pas de couleur
+		Bordures pas de bordure
+		Apparence des liens
+			Liens rgba(255,255,255,1)
+			Liens survolés souligné rgba(255,255,255,1)
+		Couleur de fond des liens au survol pas de couleur
+		Bordure sur les liens pas de bordure
+		"Aucune bordure sur le dernier élément" décoché
+
+Boutique
+	Peu importe, éléments par défaut
+
+Pied de page
+	Positionnement du pied de page En dessous du conteneur
+	Marges intérieures 10px
+
+	Image et couleur de fond
+		Position left top  
+		Répétition 1er en partant de la gauche
+		Couleur rgba(40,40,40,1)
+		Image pas d'image
+		
+	Bordures pas de bordure
+	Bords arrondis aucun
+
+	Texte
+		Police Arial, Helvetica, sans-serif
+		Taille 12px
+		Couleur rgba(153,153,153,1)
+		Liens souligné rgba(153,153,153,1)
+		Liens survolés rgba(255,255,255,1)
+		
+Styles personnalisés des lignes et colonnes
+	Couleur des bordures rgba(122,122,122,0.5)
+	Style de la bordure Dotted
+	Couleur de fond rgba(122,122,122,0.2)
+
+	Mise en avant
+		Couleur de la bordure rgba(162,87,1,1)
+		Couleur de fond rgba(162,87,1,0.2)
+		Couleur du titre rgba(162,87,1,1)
+
+Taille des images
+	Avatars
+		Recadrer L50 H50
+	Miniatures L100 H100
+
+Code CSS personnalisé
+
+.item-blog
+{
+    margin-top:30px;
+}
+
+.pagination
+{
+    margin:50px 0px;
+    background-color:rgba(242,242,242,1);
+    border-top:1px solid rgba(221,221,221,1);
+}
+
+.pagination ul 
+{
+    vertical-align:middle;
+    padding:8px 0px;
+}
+
+.widget_blogpost_categories, .widget_page_category
+{
+    background-color:rgba(234,234,234,1);
+    padding:3px;
+    border:1px solid rgba(221,221,221,1);
+}
+
+
+Autre (directement dans le paramétrage des widgets)
+	Couleur de la pagination des carrousels/diaporamas : rgba(51,51,51,1)
