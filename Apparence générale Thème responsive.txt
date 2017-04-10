@@ -379,7 +379,7 @@ Pied de page
 	Image et couleur de fond
 		Position left top  
 		Répétition 1er en partant de la gauche
-		Couleur rgba(40,40,40,1)
+		Couleur rgba(255,255,255,1)
 		Image pas d'image
 		
 	Bordures pas de bordure
