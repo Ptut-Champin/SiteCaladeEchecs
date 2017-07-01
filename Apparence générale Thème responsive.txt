@@ -435,5 +435,9 @@ Code CSS personnalisé
 }
 
 
-Autre (directement dans le paramétrage des widgets)
-	Couleur de la pagination des carrousels/diaporamas : rgba(51,51,51,1)
+Diaporamas :
+Couleur de fond du bandeau : rgba(234,234,234,1)
+Couleur du texte sur ce bandeau : rgba(0,0,0,1)
+Couleur de la navigation : rgba(0,0,0,1)
+Couleur de la navigation des vignettes : rgba(0,0,0,1)
+Couleur de fond de la pellicule : rgba(234,234,234,1)
