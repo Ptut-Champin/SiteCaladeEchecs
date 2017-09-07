@@ -1,7 +1,27 @@
+<script language="javascript">
+$(document).ready(function() {
+pageExecute.init();
+});
+
+var pageExecute = {
+    init: function () {
+        $.ajax({
+			// fichier citations
+            url: "http://www.calade-echecs.com/medias/files/citations-file.txt",
+            async: false,
+            success: function (data){
+				var citations = data.split('\n');
+				var index = Math.floor(Math.random() * citations.length);
+				$('#spanCitations').html("\"" + citations[index].trim() + "\"");
+            }
+        });
+    }
+};
+</script>
 <div style="font-size:15px">
 <p style="text-align: justify;">Bienvenue sur le site de Calade Echecs, le club d&#39;&eacute;checs de Villefranche sur sa&ocirc;ne ! Vous pouvez retrouver notre actualit&eacute; sur cette page, et commenter les billets du blog.</p>
 
-<p style="text-align: justify; font-weight:bold;">Les inscriptions pour <a href="http://www.calade-echecs.com/pages/tournoi-jeune-de-villefranche/13eme-gd-prix-de-villefranche-en-beaujolais.html" style="font-weight:bold;">le XV<sup>&egrave;me</sup> grand prix</a> des 17 et 18 juin 2017 sont ouvertes ! Pensez &agrave; remplir <a href="https://www.inscription-facile.com/form/tYt7LXoKSOU0RZe20OZv" style="font-weight:bold;">le formulaire d&#39;inscription</a> !</p>
+<p style="text-align: justify; color:red;"><strong>Les inscriptions sont ouvertes !&nbsp;Passez au club un vendredi soir d&egrave;s 20 h 30 ou un samedi matin de 9 h 30 &agrave; 12 h pour r&eacute;cup&eacute;rer une fiche d&#39;inscription. Vous pouvez &eacute;galement la&nbsp;<a href="http://www.calade-echecs.com/pages/documents.html">t&eacute;l&eacute;charger ici</a>.</strong></p>
 <!--
 <table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 430px;">
 	<tbody>
@@ -15,52 +35,5 @@
 <p>Si vous souhaitez porter fi&egrave;rement les couleurs du club, la main sur le coeur, Calade Echecs <a href="http://www.calade-echecs.com/pages/t-shirts-du-club.html">propose des T-shirts &agrave; son effigie</a>.</p>
 -->
 
-<p>Retrouvez &eacute;galement les perles de Calade Echecs ; rafra&icirc;chissez la page pour obtenir une nouvelle citation ou bien <a href="http://www.calade-echecs.com/pages/citations.html">visitez celle-ci</a>, elles y sont toutes.<br />
-<span style="font-style:italic; font-weight:bold; font-size:18px;"><script language="javascript">
-citations = new Array();
-citations[0] = "Il vaut mieux perdre un pion pour garder les bonnes pièces.";
-citations[1] = "C'est deux grands maîtres, mais il y en a qu'un qui a les Noirs.";
-citations[2] = "Ben y a mat là !";
-citations[3] = "Y avait mat en un là ! Plus maintenant...";
-citations[4] = "Soit vous l'avez calculé, soit vous l'avez pas calculé, alors tant mieux !";
-citations[5] = "Fallait prendre, tu nous fatigues avec ta paire de fous !";
-citations[6] = "<a href=\"http://www.calade-echecs.com/medias/images/thanks-captain-obvious.jpg\" style=\"font-weight:bold;\">Une dame, c'est une dame.</a>";
-citations[7] = "Une partie ça ne se gagne pas deux fois.";
-citations[8] = "Ce n'est pas nous qui décidons quel coup on va jouer.";
-citations[9] = "Les gens qui attaquent constamment, ça finit par énerver.";
-citations[10] = "Le cavalier bloqueur ? Si je lui prends il n'en a plus, et donc je gagne.";
-citations[11] = "Une fois que j'ai fais f3, j'ai plus f3.";
-citations[12] = "Tf8 c'est un coup.";
-citations[13] = "- T'as donné ton bon fou !<br />- Ouais mais on est dans le thème.";
-citations[14] = "Le fait de (bien) noter, ça impressionne l'adversaire.";
-citations[15] = "Quand je réfléchis c'est trop tard.";
-citations[16] = "Celle-là on va la perdre avec les deux couleurs.";
-citations[17] = "Je suis trop fort, je vais changer de club !";
-citations[18] = "- T'as perdu un pion !<br />- ... On va dire que c'était un gambit.";
-citations[19] = "Engage le jeu, que je le gagne.";
-citations[20] = "Joue a4, comme la feuille.";
-citations[21] = "Certains échecs sont des réussites.";
-citations[22] = "La Dame n'est pas une pièce au début du jeu.";
-citations[23] = "Le pion \"c\" n'est passé que s'il n'est pas c.";
-citations[24] = "Je fais comme Columbo, je gagne toujours à la fin.";
-citations[25] = "Avoir les idées dans un sens ça permet de les avoir dans l'autre.";
-citations[26] = "<a href=\"http://www.calade-echecs.com/medias/images/thanks-captain-obvious.jpg\" style=\"font-weight:bold;\">Les seniors, tu peux pas les faire jouer en jeunes.</a>";
-citations[27] = "Y a le roi qui est en target.";
-citations[28] = "- T'en connais des champions d'échec ?<br />- J'en vois un tous les jours quand je suis sur mon PC... Kaspersky je crois.";
-citations[29] = "L'âme sûre ruse mal.";
-citations[30] = "<a href=\"https://youtu.be/htkj-ef_A-4\" style=\"font-weight:bold;\">Aux échecs, il faut viser haut. Mais attention aux boîtes volantes.</a>";
-citations[31] = "Le but aux échecs ce n'est pas de comprendre, mais c'est de ne pas savoir.";
-citations[32] = "Ça t'as pris combien de temps pour réfléchir ?";
-citations[33] = "C'est la bonne structure dans cette structure.";
-citations[34] = "Ce coup ? Ben... Hum... c'est un coup légal.";
-citations[35] = "<a href=\"http://www.calade-echecs.com/medias/images/worst-joke-ever.png\" style=\"font-weight:bold;\">c4 c'est de la bombe.</a>";
-citations[36] = "Le problème, c'est que ça ne gagne que la dame.";
-citations[37] = "Allez, viens, on change de couleur.";
-citations[38] = "Je réfléchis plus sur les parties de mes coéquipiers que sur celle de mon adversaire.";
-citations[39] = "Si les Blancs ils jouent bien, ils sont obligés de pas perdre.";
-citations[40] = "Alors j'ai vu cette position et je me suis dit faut que je mate.";
-citations[41] = "Je vais te clouer comme Jésus !";
-index = Math.floor(Math.random() * citations.length);
-document.write("\"" + citations[index] + "\"");
-</script></span></p>
+<p>Retrouvez &eacute;galement les perles de Calade Echecs ; rafra&icirc;chissez la page pour obtenir une nouvelle citation ou bien <a href="http://www.calade-echecs.com/pages/fun/citations.html">visitez celle-ci</a>, elles y sont toutes.</p>
 </div>
