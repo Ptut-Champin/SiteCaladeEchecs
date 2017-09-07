@@ -1,0 +1,4 @@
+Activer les commentaires.
+
+Désactiver les commentaires sur les pages :
+Contact

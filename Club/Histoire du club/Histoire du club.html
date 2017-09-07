@@ -3,18 +3,20 @@ $(document).ready( function () {
     $(".deroulerEnrouler div").hide();
     
     $(".deroulerEnrouler h1").click( function () {
-// changement de l'image de la flèche
-var img = $(this).closest('.deroulerEnrouler').find('.flecheDeroulerEnrouler');
-if (img.attr('src')==='http://www.calade-echecs.com/medias/images/fleche-derouler.png')
-img.attr('src', 'http://www.calade-echecs.com/medias/images/fleche-enrouler.png');
-else
-img.attr('src', 'http://www.calade-echecs.com/medias/images/fleche-derouler.png');
+		// changement de l'image de la flèche
+		var img = $(this).closest('.deroulerEnrouler').find('.flecheDeroulerEnrouler');
+		var obj = $(this).closest('.deroulerEnrouler').find('div');
 
-// déroulement/enroulement du contenu
-        var obj = $(this).closest('.deroulerEnrouler').find('div');
-        jQuery(obj).toggle(1000);
-        return false;
-    });
+		if (img.attr('src')==='http://www.calade-echecs.com/medias/images/fleche-derouler.png') {
+				img.attr('src', 'http://www.calade-echecs.com/medias/images/fleche-enrouler.png');
+$(obj).slideDown(1000);
+		}
+		else {
+			$(obj).slideUp(1000, function() {
+				img.attr('src', 'http://www.calade-echecs.com/medias/images/fleche-derouler.png');
+			});
+		}
+	});
 });
 </script>
 <table border="0" cellpadding="1" cellspacing="1" style="width: 100%;">

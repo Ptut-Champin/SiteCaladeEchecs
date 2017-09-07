@@ -2,8 +2,12 @@ Titre du site : Calade-Echecs
 Sous-titre : Le club d'échecs de Villefranche sur Saône
 Format de date : 01/07/2016
 Fuseau horaire : Europe/Paris
-E-mail du site : le_manu_1981@yahoo.fr
+E-mail du site : leo.colinnas@live.fr
 Nom d'expéditeur des mails : emmanuel
 Type de site : Association
 Logo : Image regroupant les logos de la ville de Villefranche et du club de Calade Echecs
 Favicon Logo Calade Echecs
+
+Identifiants
+calade_echecs
+6412d6d36dbc
