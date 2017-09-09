@@ -7,7 +7,3 @@ Nom d'expéditeur des mails : emmanuel
 Type de site : Association
 Logo : Image regroupant les logos de la ville de Villefranche et du club de Calade Echecs
 Favicon Logo Calade Echecs
-
-Identifiants
-calade_echecs
-6412d6d36dbc
